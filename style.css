@@ -13,7 +13,8 @@ Text Domain:
 
 * {border: 0; padding: 0;}
 
-
+h1,h2,h3,h4,h5,h6 {font-family: 'Signika',sans-serif;}
+body {font-family: 'Roboto',sans-serif;}
 
 @media screen and (max-width: 790px) {
     /* Môbils */
@@ -25,4 +26,7 @@ Text Domain:
     .principal {width: 70vw; float: left;}
     .lateral {width: 29vw; float: right;}
     .logo_portada {width: 20%; height: auto;}
+    .site-header {width: 75%; margin: 0px auto; text-align: center;}
+    .site-footer {width: 75%; margin: 0px auto; text-align: center;}
+    .main-body {width: 75%; margin: 0px auto;}
 }

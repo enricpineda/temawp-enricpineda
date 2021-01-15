@@ -6,8 +6,7 @@
 get_header();
 
 ?>
-<div>
-/*--------- CONTENT -------------*/
+<div class="main-body">
 <div class="principal">
     <?php
 			// loop.
@@ -25,14 +24,13 @@ get_header();
     ?>
     </div>
 
-/*--------- SIDEBAR -------------*/
 <div class="lateral">
     <?php
     get_sidebar();
 ?>
     </div>
-    /*--------- FOOTER -------------*/
 </div>
+<div style="clear:both;"></div>
     <?php
     get_footer();
 
