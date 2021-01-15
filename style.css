@@ -10,3 +10,19 @@ License URI:
 Tags:
 Text Domain:
 */
+
+* {border: 0; padding: 0;}
+
+
+
+@media screen and (max-width: 790px) {
+    /* Môbils */
+    .logo_portada {width: 70%; height: auto;}
+}
+
+@media screen and (min-width: 791px){
+    /*Pantalles*/
+    .principal {width: 70vw; float: left;}
+    .lateral {width: 29vw; float: right;}
+    .logo_portada {width: 20%; height: auto;}
+}

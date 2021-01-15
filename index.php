@@ -4,8 +4,12 @@
 */
 /*--------- HEADER --------------*/
 get_header();
-/*--------- CONTENT -------------*/
 
+?>
+<div>
+/*--------- CONTENT -------------*/
+<div class="principal">
+    <?php
 			// loop.
 			while ( have_posts() ) :
 
@@ -18,11 +22,19 @@ get_header();
 				// Fin loop.
 			endwhile;
 
+    ?>
+    </div>
 
 /*--------- SIDEBAR -------------*/
-get_sidebar();
-/*--------- FOOTER -------------*/
-get_footer();
+<div class="lateral">
+    <?php
+    get_sidebar();
+?>
+    </div>
+    /*--------- FOOTER -------------*/
+</div>
+    <?php
+    get_footer();
 
 
 ?>
