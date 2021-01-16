@@ -6,4 +6,12 @@ function epineda_estils(){
 
 }
 add_action('wp_enqueue_scripts','epineda_estils');
+
+function register_my_menus() {
+    register_nav_menus (array(
+    'menupral-gran' => __( 'Menú principal gran' ),
+        'menupral-mobil' => __('Menú principal mòbil')
+    ));
+}
+add_action ('init','register_my_menus');
 ?>

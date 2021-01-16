@@ -13,6 +13,9 @@
 
 <header class="site-header">
     <img src="<?php echo get_template_directory_uri();?>/img/logo.svg" class="logo_portada">
-    <h1><?php bloginfo( 'name' ); ?></h1>
-    <h4><?php bloginfo( 'description' ); ?></h4>
+   <!-- <h1><?php bloginfo( 'name' ); ?></h1>
+    <h4><?php bloginfo( 'description' ); ?></h4>-->
+    <!-- Menú per a mòbils -->
+    <?php wp_nav_menu(array('theme_location'=>'menupral-mobil','container-class' => 'menumobil'));?>
+    <?php wp_nav_menu(array('theme-location'=> 'menupral-gran'));?>
 </header>

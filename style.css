@@ -19,6 +19,7 @@ body {font-family: 'Roboto',sans-serif;}
 @media screen and (max-width: 790px) {
     /* Môbils */
     .logo_portada {width: 70%; height: auto;}
+    .menu-principal-container {display: none;}
 }
 
 @media screen and (min-width: 791px){
@@ -29,4 +30,5 @@ body {font-family: 'Roboto',sans-serif;}
     .site-header {width: 75%; margin: 0px auto; text-align: center;}
     .site-footer {width: 75%; margin: 0px auto; text-align: center;}
     .main-body {width: 75%; margin: 0px auto;}
+    .menu-principalmob-container {display: none;}
 }
