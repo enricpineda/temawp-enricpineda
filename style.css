@@ -15,6 +15,9 @@ Text Domain:
 
 h1,h2,h3,h4,h5,h6 {font-family: 'Signika',sans-serif;}
 body {font-family: 'Roboto',sans-serif;}
+a {text-decoration: none;}
+.menu-principal-container {font-family: 'Signika',sans-serif;}
+.menu-principal-container ul {list-style-type: none;}
 
 @media screen and (max-width: 790px) {
     /* Môbils */
@@ -24,11 +27,13 @@ body {font-family: 'Roboto',sans-serif;}
 
 @media screen and (min-width: 791px){
     /*Pantalles*/
-    .principal {width: 70vw; float: left;}
-    .lateral {width: 29vw; float: right;}
+    .principal {width: 75%; float: left;}
+    .lateral {width: 24%; float: right;}
     .logo_portada {width: 20%; height: auto;}
     .site-header {width: 75%; margin: 0px auto; text-align: center;}
     .site-footer {width: 75%; margin: 0px auto; text-align: center;}
     .main-body {width: 75%; margin: 0px auto;}
     .menu-principalmob-container {display: none;}
+    .menu-principal-container ul {}
+.menu-principal-container ul li {display: inline; font-size: 1.5em; margin: 0 1em;}
 }
